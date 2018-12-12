@@ -14,8 +14,19 @@ box-sizing: border-box;
 
 img {
 display: flex;
+display: inline-block;
 justify-content: space-between;
 max-width: 100%;
 padding: 0;
 margin: 0;
+}
+
+*, *::before, *::after {
+box-sizing: inherit;
+}
+
+body {
+margin: .5rem;
+padding: 0;
+text-align: center;
 }
